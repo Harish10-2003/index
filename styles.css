@@ -1,0 +1,74 @@
+/* Import the Roboto font */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png');
+    background-size: cover;
+}
+
+.chat-container {
+    width: 300px;
+    margin: 100px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chat-header {
+    background-color: #323f4b;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.chat-messages {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: fit-content;
+    max-width: 80%;
+    clear: both;
+}
+
+.received {
+    background-color: #52606d;
+    color: #ffffff;
+    margin-right: auto;
+}
+
+.sent {
+    background-color: #47a3f3;
+    color: #ffffff;
+    margin-left: auto;
+}
+
+.chat-input {
+    display: flex;
+    background-color: rgba(50, 63, 75, 0.8);
+    padding: 10px;
+}
+
+.chat-input input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.chat-input button {
+    background-color: #47a3f3;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
